@@ -22,7 +22,7 @@ we have used 3 secondary functions =>distance =>To calculate distance between 2 
                                    =>point_obs_collision=>This Function checks if a point Coordinate(x, y) is Colliding with any of the obstacles present in the Environment, if it does collide return 1
                                    =>Crossobstacle=>This Function checks if the line segment joining the 2 points (x1, y1) and (x2, y2) passes through any obstacle, if it does then 1 is returned else 0 ir returned
                                    
-Then Comes 3 Primary Functions which performs the main task :-
+Then Comes 3 Primary Functions which performs the main task 
                                                            =>RRT()=>This Function takes input as Starting point, goal point, width of display window, height of display window, list of obstacles object and a goalFlag
                                                                     The goalFlag is set to 1 when the goal is reached
                                                                     The Function Returns***X=>The List of X-Coordinates of the Nodes of the Random Tree***
