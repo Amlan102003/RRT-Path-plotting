@@ -27,11 +27,11 @@ we have used 3 secondary functions =>1. distance =>To calculate distance between
 Then Comes 3 Primary Functions which performs the main task 
 1. RRT()=>This Function takes input as Starting point, goal point, width of display window, height of display window, list of obstacles object and a goalFlag.
 The goalFlag is set to 1 when the goal is reached.
-The Function ReturnsX=>The List of X-Coordinates of the Nodes of the Random Tree.
-Y=>The List of Y Coordinates of the Nodes of the Random Tree.
-parent=>This List stores the parent of all nodes, parent[i]=par means parent[i stores the parent node par of  the Child Node i.That is we have reached node i from node par .
-goalState=>Every node of the Random Tree has an identification number n, goalstate is the identification number of the goal point.
-goalFlag=>goalFlag is  1 when goal is reached otherwise 0.
+The Function Returns [X=>The List of X-Coordinates of the Nodes of the Random Tree,
+Y=>The List of Y Coordinates of the Nodes of the Random Tree,
+parent=>This List stores the parent of all nodes, parent[i]=par means parent[i] stores the parent node par of  the Child Node i.That is we have reached node i from node par,
+goalState=>Every node of the Random Tree has an identification number n, goalstate is the identification number of the goal point,
+goalFlag=>goalFlag is  1 when goal is reached otherwise 0].
 
                                                                                         
 =>2. input_output_function()=>This Function is for taking the input and Process the X, Y coordinates of the node of the random tree and the parent list obtained  from the above. 
