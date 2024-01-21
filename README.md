@@ -1,7 +1,7 @@
 
 This is the Python  Code for plotting the path from a start to goal point using a Random Tree. 
 ***Throughout the code single line comments and multi line comments have been used for properly understanding the code.You can go through it to understand the logic***
-PYGAME Has been used for plotting the path
+PYGAME Has been used for plotting the path.
 Other libraries used are math and random
 
 INPUT=>
@@ -11,6 +11,8 @@ When you run it,  it asks the user following things =>
 2.Enter X,Y Coordinate of the Goal Point.
 3.Enter Number of obstacles you want to put in the environment.
 4.Input the Coordinates of those obstacles one by one (The obstacles are represented by 30x30 rectangles and the user has to enter the coordinate of the Top-left corner of the rectangle).
+The input has been designed in such a way that if the 30x30 rectangle created by the user collides with the start or goal point the Code insists the user to enter the value of the Coordinates again, until the rectangle created with that coordinate does not collide with start or goal point
+
 
 ALGORITHM=>
 
@@ -25,9 +27,9 @@ we have used 3 secondary functions =>1. distance =>To calculate distance between
 Then Comes 3 Primary Functions which performs the main task 
 1. RRT()=>This Function takes input as Starting point, goal point, width of display window, height of display window, list of obstacles object and a goalFlag.
 The goalFlag is set to 1 when the goal is reached.
-The Function ReturnsX=>The List of X-Coordinates of the Nodes of the Random Tree.***
-Y=>The List of Y Coordinates of the Nodes of the Random Tree.***
-parent=>This List stores the parent of all nodes, parent[i] stores the parent of  the Child Node i.
+The Function ReturnsX=>The List of X-Coordinates of the Nodes of the Random Tree.
+Y=>The List of Y Coordinates of the Nodes of the Random Tree.
+parent=>This List stores the parent of all nodes, parent[i]=par means parent[i stores the parent node par of  the Child Node i.That is we have reached node i from node par .
 goalState=>Every node of the Random Tree has an identification number n, goalstate is the identification number of the goal point.
 goalFlag=>goalFlag is  1 when goal is reached otherwise 0.
 
