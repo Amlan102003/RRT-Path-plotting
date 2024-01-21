@@ -1,5 +1,5 @@
 
-Above is the Code for plotting the path from a start to goal point using a Random Tree. 
+This is the Python  Code for plotting the path from a start to goal point using a Random Tree. 
 ***Throughout the code single line comments and multi line comments have been used for properly understanding the code.You can go through it to understand the logic***
 PYGAME Has been used for plotting the path
 Other libraries used are math and random
@@ -52,6 +52,18 @@ Then Comes 3 Primary Functions which performs the main task
                                                                          The point coordinates of the nodes along the path has been shown by a red circle of just 1pixel(comparable to dot)
 
 To execute the code we need to just call the Draw Function 
+
+OUTPUT=> We will the see the plotted path in Pygame display window 
+
+FOR COMPILATION AND RUN IN UBUNTU(I don't use ubuntu but as per my experience of using it in Computational phyics lab) =>
+in the prompt=> 
+write =>python RRT.py
+
+
+It should run, If it does not please let me know 
+
+
+
 
     
 
