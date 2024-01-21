@@ -51,7 +51,7 @@ Then Comes 3 Primary Functions which performs the main task
                                                                          are actually the center of those circles, not the circle itself
                                                                          The point coordinates of the nodes along the path has been shown by a red circle of just 1pixel(comparable to dot)
 
-To execute the code we need to just call the Draw Function 
+To execute the code we need to just call the Draw Function(It has been called inside the File, All you need to do is to run the Code using the command line prompt )
 
 OUTPUT=> We will the see the plotted path in Pygame display window 
 
