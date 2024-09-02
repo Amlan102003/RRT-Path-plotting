@@ -1,6 +1,6 @@
 The Rapidly-exploring Random Tree (RRT) algorithm is a path-planning method designed to efficiently explore high-dimensional spaces. It incrementally builds a tree by randomly sampling the search space, extending branches toward unexplored regions, and connecting them to the nearest node in the tree. RRT is particularly effective for solving complex motion planning problems in robotics and other applications where finding a path from start to goal in the presence of obstacles is challenging.<br>
 #Requirements
-Python (Ensure pygame, math, and random libraries are installed)<br>
+Python <br>
 #Usage
 Run the Script: Execute python RRT.py.<br>
 Provide Inputs:<br>
